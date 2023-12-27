@@ -1,66 +1,45 @@
  import {useState} from 'react'
-import reactLogo from './assets/react.svg'
- 
-
+ import cardImage from "../assets/card.jpg";
+ import { HiMenuAlt4 } from "react-icons/hi";
+ import '../App.css'
 function Navbar(){
- const [count, setCount] = useState(0)
- const name = 'Damola'
- const navLinks = [
-    {
-        name: "Home",
-        id: 1,
-        path: '/'
-    },
-    {
-        name: "About",
-        path: '/main.tsx',
-        id: 2,
-    },
-    {
-        name: "Services",
-        path: '/main.tsx',
-        id: 3,
-    },
-    {
-        name: "Contact", 
-        path: '/main.tsx',
-        id: 4,
-    }
- ] 
- const headerlinks = navLinks.map(navLinks =>
-    <li key = {navLinks.id}> 
-        {navLinks.name}
-    </li>
- );
- function handleClick(){
-    alert('It actually worked')
+ const [visible, setVisible] = useState(false)
+ const handleClick = () => {
+    setVisible(!visible)
  }
-
+ const name = 'XPRESSIONS'
+ const navLinks = [
+    "Home",
+    "About",
+    "Content",
+    "Projects"
+ ] 
+ const headerlinks = navLinks.map((text) => (
+    <li>
+        {text}
+    </li>
+ ))
+ const Nav = () => {
+    return(
+        <div>
+            <ul>
+                {headerlinks}
+            </ul>     
+            <button>Subscribe</button>
+        </div>
+    )
+ }
  return(
     <>
      <nav>
-        <h1>Earnest-ly</h1>
-        <button onClick= {() => setCount(count + 1)}>
-            I've been clicked {count} times
-        </button>
-        <h1>
-            {name}
-        </h1>
-        <ul> 
-            {headerlinks}
-        </ul>
-        <button onClick={handleClick}>
-            Click me
-        </button>
-        <button>
-            CLICK ME
-        </button>
+        <h1>XPRESSIONS</h1>
+        <div>
+         <Nav />
+        </div>
+        {/* <span onClick={handleClick}>
+            <HiMenuAlt4 />
+        </span> */}
      </nav>
-     <main>
-        <article>
-            <img src="{reactLogo}" alt="" />
-        </article>
-     </main>
     </>
  )
 }
