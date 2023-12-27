@@ -7,34 +7,25 @@ import Contact from './components/Contact'
 import Benefit from './components/Benefit'
 import Team from './components/Team'
 import Footer from './components/Footer'
+
 function App() {
 
   return (
-    <>
-      <>
-        <Navbar />
-      </>
-      <>
+      <><>
+      <Navbar />
+    </><>
         <Hero />
-      </>
-      <>
+      </><>
         <Benefit />
-      </>
-      <>
+      </><>
         <Services />
-      </>
-      <>
+      </><>
         <Content />
-      </>
-      <>
+      </><>
         <Team />
-      </>
-      <>
+      </><>
         <Contact />
-      </>
-      <Footer />
-    </>
-  )
-}
-
+      </><Footer /></>
+)  
+  }    
 export default App

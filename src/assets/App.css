@@ -1,0 +1,42 @@
+#root {
+
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 0 2rem;
+  backdrop-filter: blur(100px);
+  justify-content: space-evenly;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  color: black;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  backdrop-filter: blur(100px);
+  place-items: center;
+  background-image: url(../src/assets/bl);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  padding-top: 50px;
+}
+header section{
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  width: 100%;
+  backdrop-filter: blur(200px);
+}

@@ -1,3 +1,4 @@
+
 import '../App.css'
 import { FaArrowUp } from 'react-icons/fa6'
 import uiux from '../assets/uiux_img_3.jpg'
@@ -91,5 +92,4 @@ const services = data.map((text) => (
         </section>
     )
 }
-
 export default Services
