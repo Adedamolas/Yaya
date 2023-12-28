@@ -60,7 +60,7 @@ const data = [
     <article>
         <div>
             <h2>Project Management</h2>
-            <span><FaArrowUp /></span>
+            <span className='arrow'><FaArrowUp /></span>
         </div>
         <div className={
             selected === i ? 'content show' : 'content'

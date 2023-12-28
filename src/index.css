@@ -92,6 +92,9 @@ button:focus-visible {
 }
 
 @media screen and (max-width: 800px){
+  section{
+    padding: 0 50px;
+  }
   section h1{
     font-size: 3rem;
   }
@@ -132,7 +135,7 @@ button:focus-visible {
     place-items: center;
   }
   .services_ctn section article{
-    width: 60%;
+    width: 70%;
   }
   .services_ctn section article div:nth-child(2){
     flex-direction: column;
@@ -142,6 +145,9 @@ button:focus-visible {
   }
   .services_ctn h3{
     font-size: 2rem;
+  }
+  .services_ctn section div article:nth-child(3) div{
+    flex-direction: column;
   }
 
 
