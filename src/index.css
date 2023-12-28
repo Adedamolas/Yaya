@@ -92,11 +92,11 @@ button:focus-visible {
 }
 
 @media screen and (max-width: 800px){
-  section{
+  /* section{
     padding: 0 50px;
-  }
+  } */
   section h1{
-    font-size: 3rem;
+    font-size: 2rem;
   }
   h3{
     font-size: 2rem ;
@@ -108,10 +108,10 @@ button:focus-visible {
     place-items: left;
   }
   header h1{
-    font-size: 3rem;
+    font-size: 2rem;
   }
   header img{
-    width: 25rem;
+    width: 20rem;
   }
   header section:nth-child(1){
     flex-direction: column;
@@ -123,6 +123,9 @@ button:focus-visible {
 
   .benefit_ctn section{
     flex-direction: column;
+  }
+  .benefit_ctn h3{
+    font-size: 1.5rem;
   }
 
 
@@ -165,11 +168,22 @@ button:focus-visible {
   .content_ctn section span:nth-child(2) article{
     width: 20rem;
   }
+  .content_ctn section span:nth-child(1) div{
+    width: 20rem;
+  }
+  .content_ctn section span:nth-child(2) div{
+    width: 20rem;
+  }
 
 
   .team_ctn section{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 50px;
+  }
+
+
+  .footer_ctn{
+    flex-direction: column;
   }
 }
