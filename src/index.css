@@ -64,14 +64,14 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: black;
+  background: black;
   cursor: pointer;
   transition: all 0.25s;
   color: #ffffff;
 }
 button:hover {
-  background: white;
-  color: var(--color-bg2);
+  background: transparent;
+  color: black;
 }
 button:focus,
 button:focus-visible {
@@ -92,11 +92,23 @@ button:focus-visible {
 }
 
 @media screen and (max-width: 800px){
+  section h1{
+    font-size: 3rem;
+  }
+  h3{
+    font-size: 2rem ;
+  }
   nav div{
     display: none;
   }
   header{
     place-items: left;
+  }
+  header h1{
+    font-size: 3rem;
+  }
+  header img{
+    width: 25rem;
   }
   header section:nth-child(1){
     flex-direction: column;
@@ -110,11 +122,17 @@ button:focus-visible {
     flex-direction: column;
   }
 
+
+
   .services_ctn section{
+    place-items: center;
+    width: 100%;
+  }
+  .services_ctn section div{
     place-items: center;
   }
   .services_ctn section article{
-    width: 50%;
+    width: 60%;
   }
   .services_ctn section article div:nth-child(2){
     flex-direction: column;
@@ -122,22 +140,30 @@ button:focus-visible {
   .services_ctn section div:nth-child(1) article:hover{
     flex-grow: 2;
   }
+  .services_ctn h3{
+    font-size: 2rem;
+  }
 
 
-  .content_ctn section div:nth-child(1){
-    display: flex;
+
+  .content_ctn section span:nth-child(1){
     flex-direction: column;
+    place-items: center;
+    height: max-content;
   }
-  .content_ctn section div:nth-child(2){
-    display: flex;
+  .content_ctn section span:nth-child(2){
     flex-direction: column;
+    place-items: center;
+    /* height: 0rem; */
   }
-  .content_ctn section div:nth-child(1) article{
-    height: 100rem;
-    flex: 1;
+  .content_ctn section span:nth-child(2) article{
+    width: 20rem;
   }
 
-  .content_ctn section div:nth-child(2) article{
-    height:30rem ;
+
+  .team_ctn section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 50px;
   }
 }

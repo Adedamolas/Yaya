@@ -1,13 +1,7 @@
-//  import {useState} from 'react'
-//  import cardImage from "../assets/card.jpg";
-//  import { HiMenuAlt4 } from "react-icons/hi";
- import '../App.css'
+import '../App.css'
+import {motion} from 'framer-motion'
+
 function Navbar(){
-//  const [visible, setVisible] = useState(false)
-//  const handleClick = () => {
-//     setVisible(!visible)
-//  }
-//  const name = 'XPRESSIONS'
  const navLinks = [
     "Home",
     "About",
@@ -31,15 +25,15 @@ function Navbar(){
  }
  return(
     <>
-     <nav>
-        <h1>XPRESSIONS</h1>
-        <div>
-         <Nav />
-        </div>
-        {/* <span onClick={handleClick}>
-            <HiMenuAlt4 />
-        </span> */}
-     </nav>
+         <nav>
+            <h1>XPRESSIONS</h1>
+            <div>
+               <Nav />
+            </div>
+            {/* <span onClick={handleClick}>
+                  <HiMenuAlt4 />
+            </span> */}
+         </nav>
    </>
 )}
 

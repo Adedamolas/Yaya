@@ -7,11 +7,20 @@ import Contact from './components/Contact'
 import Benefit from './components/Benefit'
 import Team from './components/Team'
 import Footer from './components/Footer'
+import { motion, useScroll } from "framer-motion";
 
 function App() {
-
+  const { scrollYProgress } = useScroll();
   return (
-      <><>
+    
+      <>
+        <>
+          <motion.div
+          className="progress-bar"
+          style={{ scaleX: scrollYProgress }}
+        />
+        </>
+      <>
       <Navbar />
     </><>
         <Hero />
