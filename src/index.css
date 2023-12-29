@@ -111,7 +111,7 @@ button:focus-visible {
     font-size: 2rem;
   }
   header img{
-    width: 20rem;
+    width: 15rem;
   }
   header section:nth-child(1){
     flex-direction: column;
@@ -123,22 +123,36 @@ button:focus-visible {
 
   .benefit_ctn section{
     flex-direction: column;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1FR);
+    place-items:  center; */
   }
   .benefit_ctn h3{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
 
 
   .services_ctn section{
+    align-items: center;
     place-items: center;
     width: 100%;
   }
-  .services_ctn section div{
-    place-items: center;
+  .services_ctn h2, span{
+    font-size: 1rem;
+  }
+  .services_ctn section div span{
+    font-size: .5rem;
+  }
+  .services_ctn section article div{
+    justify-content: center;
+    /* width: 50%; */
+    /* justify-content: none; */
+    /* place-items: center; */
   }
   .services_ctn section article{
-    width: 70%;
+    justify-content: center;
+    width: 50%;
   }
   .services_ctn section article div:nth-child(2){
     flex-direction: column;
@@ -149,9 +163,9 @@ button:focus-visible {
   .services_ctn h3{
     font-size: 2rem;
   }
-  .services_ctn section div article:nth-child(3) div{
+  /* .services_ctn section div article:nth-child(3) div{
     flex-direction: column;
-  }
+  } */
 
 
 
@@ -160,19 +174,31 @@ button:focus-visible {
     place-items: center;
     height: max-content;
   }
+  .content_ctn section span div article h3,h2{
+    font-size: 1.5rem;
+  }
+  .content_ctn h1{
+    font-size: 1.5rem;
+  }
   .content_ctn section span:nth-child(2){
     flex-direction: column;
     place-items: center;
     /* height: 0rem; */
   }
   .content_ctn section span:nth-child(2) article{
-    width: 20rem;
+    width: 15rem;
+    border-radius: 10px;
+    font-size: .5rem;
   }
   .content_ctn section span:nth-child(1) div{
-    width: 20rem;
+    width: 15rem;
+    border-radius: 10px;
+    font-size: .5rem;
   }
   .content_ctn section span:nth-child(2) div{
-    width: 20rem;
+    width: 15rem;
+    border-radius: 10px;
+    font-size: .5rem;
   }
 
 
@@ -180,6 +206,9 @@ button:focus-visible {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 50px;
+  }
+  .team_ctn section div{
+    width: 15rem;
   }
 
 
