@@ -14,6 +14,8 @@ function Content(){
                         initial= {{opacity: 0, y: 150}}
                         whileInView= {{opacity: 1, y: 0}}
                         transition={{duration: 1.2}}
+                        viewport={{once: true}}
+
                     >
                         <article>
                             <h2>AI UI/UX Design</h2>
@@ -24,6 +26,8 @@ function Content(){
                         initial= {{opacity: 0, x: 150}}
                         whileInView= {{opacity: 1, x: 0}}
                         transition={{duration: 1.2}}
+                        viewport={{once: true}}
+
                     >
                         <article>
                             <h2>Mobile App Design</h2>
@@ -36,6 +40,8 @@ function Content(){
                         initial= {{opacity: 0, y: 150}}
                         whileInView= {{opacity: 1, y: 0}}
                         transition={{duration: 1.5}}
+                        viewport={{once: true}}
+
                     >
                         <article>
                             <h3>One Piece Movie</h3>
@@ -47,6 +53,8 @@ function Content(){
                         initial= {{opacity: 0, y: 150}}
                         whileInView= {{opacity: 1, y: 0}}
                         transition={{duration: 1.6}}
+                        viewport={{once: true}}
+
                     >
                         <article>
                             <h3>One Piece Movie</h3>
@@ -58,6 +66,8 @@ function Content(){
                         initial= {{opacity: 0, y: 150}}
                         whileInView= {{opacity: 1, y: 0}}
                         transition={{duration: 1.7}}
+                        viewport={{once: true}}
+
                     >
                         <article>
                             <h3>One Piece Movie</h3>

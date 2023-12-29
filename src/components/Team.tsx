@@ -13,6 +13,8 @@ function Team(){
                     initial= {{opacity: 0, x: 150}}
                     whileInView= {{opacity: 1, x: 0}}
                     transition={{duration: 1.5}}
+                    viewport={{once: true}}
+
                 >
                     <article>
                         <span>
@@ -25,6 +27,8 @@ function Team(){
                     initial= {{opacity: 0}}
                     whileInView= {{opacity: 1}}
                     transition={{duration: 1.2}}
+                    viewport={{once: true}}
+
                 >
                     <article>
                         <span>
@@ -37,6 +41,8 @@ function Team(){
                     initial= {{opacity: 0, x: -150}}
                     whileInView= {{opacity: 1, x: 0}}
                     transition={{duration: 1.5}}
+                    viewport={{once: true}}
+
                 >
                     <article>
                         <span>

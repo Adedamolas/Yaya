@@ -20,7 +20,9 @@ function Benefit(){
                     <motion.div
                         initial= {{opacity: 0, y: 100}}
                         whileInView= {{opacity: 1, y: 0}}
-                        transition={{duration: 0.8}}>
+                        transition={{duration: 0.8}}
+                        viewport={{once: true}}
+                        >
                         <article>
                             <span><FaStar /></span>
                             <h3>High Quality Content</h3>
@@ -29,7 +31,9 @@ function Benefit(){
                     <motion.div
                         initial= {{opacity: 0, y: 150}}
                         whileInView= {{opacity: 1, y: 0}}
-                        transition={{duration: 1.2}}>
+                        transition={{duration: 1.2}}
+                        viewport={{once: true}}
+                        >
                         <article>
                             <span><FaClock /></span>
                             <h3>Fast Productions</h3>
@@ -38,7 +42,9 @@ function Benefit(){
                     <motion.div
                         initial= {{opacity: 0, y: 150}}
                         whileInView= {{opacity: 1, y: 0}}
-                        transition={{duration: 1.4}}>
+                        transition={{duration: 1.4}}
+                        viewport={{once: true}}
+                        >
                         <article>
                             <span><FaMoneyBill /></span>
                             <h3>Money back guarantee</h3>
