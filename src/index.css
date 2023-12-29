@@ -92,6 +92,9 @@ button:focus-visible {
 }
 
 @media screen and (max-width: 800px){
+  .progress-bar{
+    top: 60px;
+  }
   /* section{
     padding: 0 50px;
   } */
@@ -137,6 +140,11 @@ button:focus-visible {
     align-items: center;
     place-items: center;
     width: 100%;
+  }
+  .services_ctn section div{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
   }
   .services_ctn h2, span{
     font-size: 1rem;
