@@ -161,11 +161,17 @@ button:focus-visible {
     margin: 0;
     padding: 0;
   }
+
+
+
   header{
     place-items: left;
   }
   header h1{
-    font-size: 3rem;
+    font-size: 3.5rem;
+  }
+  header span{
+    font-size: 2.5rem;
   }
   header img{
     width: 15rem;
@@ -177,6 +183,9 @@ button:focus-visible {
   header section:nth-child(2){
     place-items: center;
   }
+
+
+
 
   .benefit_ctn section{
     flex-direction: column;

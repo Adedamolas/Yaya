@@ -18,7 +18,7 @@ function Hero() {
                         transition={{duration: 0.6}}
                         // viewport={{once: true}}
                         >
-                        <h1>WE <span style={{padding:'0px'}}><FaArrowLeft /></span> ARE A CREATIVE DIGITAL 
+                        <h1>WE <span style={{padding:'0px'}}><FaArrowLeft /></span> ARE A CREATIVE DIGITAL <br />
                             <span style={{border:'1px solid black', borderRadius:'55px'}}>AGENCY</span>
                             <span style={{padding:'0px'}}><FaArrowTrendUp /></span>
                         </h1>
