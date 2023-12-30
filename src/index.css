@@ -111,9 +111,9 @@ button:focus-visible {
     font-size: 1.5rem;
   }
   nav div{
-    display: none;
+    display: flex;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     top: 45px;
     left: 0;
     place-items: left;
@@ -124,7 +124,28 @@ button:focus-visible {
     background: rgb(208, 208, 255);
     backdrop-filter: blur(50px);
     padding: 20px 0;
+    /* padding-top: 50px; */
+    animation: alideIn 0.3s;
+    margin-left: 0;
     /* width: 100%; */
+  }
+  navopen{
+    margin-left: 0;
+    transition: 1s all;
+    animation: alideIn 0.3s;
+  }
+  navclose{
+    margin-left: -100%;
+    transition: all 1s;
+    animation: alideIn 0.3s;
+  }
+  @keyframes slideIn{
+    0%{
+      margin-left: -100%;
+    }
+    100%{
+      margin-left: 0;
+    }
   }
   nav span{
     font-size: 5rem;

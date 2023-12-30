@@ -20,27 +20,27 @@ function App() {
               style={{ scaleX: scrollYProgress }}
             />
             </>
-          <>
+          <div>
             <Navbar />
-          </>
-          <>
+          </div>
+          <div id='section1'>
             <Hero />
-          </>
-          <>
+          </div>
+          <div id='section2'>
             <Benefit />
-          </>
-          <>
+          </div>
+          <div id='section3'>
             <Services />
-          </>
-          <>
+          </div>
+          <div id='section4'>
             <Content />
-          </>
-          <>
+          </div>
+          <div id='section5'>
             <Team />
-          </>
-          <>
+          </div>
+          <div id='section6'>
             <Contact />
-          </>
+          </div>
           <Footer />
       </>
 )  
