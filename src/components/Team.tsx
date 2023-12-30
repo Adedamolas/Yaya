@@ -8,7 +8,7 @@ function Team(){
             <div className="heading">
                 <h1>Our Team</h1>
             </div>
-            <section>
+            <section className='hidden'>
                 <motion.div 
                     initial= {{opacity: 0, x: 150}}
                     whileInView= {{opacity: 1, x: 0}}
