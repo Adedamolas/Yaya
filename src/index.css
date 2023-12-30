@@ -107,6 +107,9 @@ button:focus-visible {
   nav{
     position:fixed;
   }
+  nav p{
+    display: flex;
+  }
   nav h1{
     font-size: 1.5rem;
   }
@@ -121,8 +124,8 @@ button:focus-visible {
     justify-content: left;
     width: 40%;
     justify-content: left;
-    background: rgb(208, 208, 255);
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(20px);
+    background: rgb(208, 208, 255, 0.8);
     padding: 20px 0;
     /* padding-top: 50px; */
     animation: alideIn 0.3s;
@@ -131,7 +134,7 @@ button:focus-visible {
   }
   navopen{
     margin-left: 0;
-    transition: 1s all;
+    transition: all 1s;
     animation: alideIn 0.3s;
   }
   navclose{
