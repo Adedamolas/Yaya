@@ -53,14 +53,6 @@ nav div ul{
   gap: 30px;
   list-style: none;
 }
-nav span{
-  font-size: 50px;
-  /* border: 2px solid white; */
-  /* padding: 3px 7px; */
-  padding-bottom: 0px;
-  border-radius: 50%;
-}
-
 
 
 header{

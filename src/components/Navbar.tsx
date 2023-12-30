@@ -1,4 +1,5 @@
 import '../App.css'
+import { CiMenuFries } from "react-icons/ci";
 // import {motion} from 'framer-motion'
 
 function Navbar(){
@@ -27,9 +28,12 @@ function Navbar(){
     <>
          <nav>
             <h1>XPRESSIONS</h1>
-            <div>
-               <Nav />
-            </div>
+            
+            <Nav />
+            {/* <h2>
+               {CiMenuFries}
+            </h2> */}
+
             {/* <span onClick={handleClick}>
                   <HiMenuAlt4 />
             </span> */}

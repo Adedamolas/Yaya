@@ -14,27 +14,35 @@ function App() {
   return (
     
       <>
-        <>
-          <motion.div
-          className="progress-bar"
-          style={{ scaleX: scrollYProgress }}
-        />
-        </>
-      <>
-      <Navbar />
-    </><>
-        <Hero />
-      </><>
-        <Benefit />
-      </><>
-        <Services />
-      </><>
-        <Content />
-      </><>
-        <Team />
-      </><>
-        <Contact />
-      </><Footer /></>
+            <>
+              <motion.div
+              className="progress-bar"
+              style={{ scaleX: scrollYProgress }}
+            />
+            </>
+          <>
+            <Navbar />
+          </>
+          <>
+            <Hero />
+          </>
+          <>
+            <Benefit />
+          </>
+          <>
+            <Services />
+          </>
+          <>
+            <Content />
+          </>
+          <>
+            <Team />
+          </>
+          <>
+            <Contact />
+          </>
+          <Footer />
+      </>
 )  
   }    
 export default App

@@ -93,7 +93,7 @@ button:focus-visible {
 
 @media screen and (max-width: 800px){
   .progress-bar{
-    top: 60px;
+    top: 0;
   }
   /* section{
     padding: 0 50px;
@@ -104,14 +104,44 @@ button:focus-visible {
   h3{
     font-size: 2rem ;
   }
+  nav{
+    position:fixed;
+  }
+  nav h1{
+    font-size: 1.5rem;
+  }
   nav div{
     display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    place-items: left;
+    align-items: left;
+    justify-content: left;
+    width: 40%;
+    justify-content: left;
+    background: rgb(208, 208, 255);
+    backdrop-filter: blur(50px);
+    padding: 20px 0;
+    /* width: 100%; */
+  }
+  nav span{
+    font-size: 5rem;
+  }
+  nav div ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: left;
+    margin: 0;
+    padding: 0;
   }
   header{
     place-items: left;
   }
   header h1{
-    font-size: 2rem;
+    font-size: 3rem;
   }
   header img{
     width: 15rem;
