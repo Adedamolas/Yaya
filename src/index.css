@@ -167,6 +167,9 @@ button:focus-visible {
   header{
     place-items: left;
   }
+  .arrow_up{
+    transform: rotate(180deg);
+  }
   header h1{
     font-size: 3.5rem;
   }
