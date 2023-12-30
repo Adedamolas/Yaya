@@ -1,5 +1,5 @@
 import '../App.css'
-import { CiMenuFries } from "react-icons/ci";
+// import { CiMenuFries } from "react-icons/ci";
 // import {motion} from 'framer-motion'
 
 function Navbar(){
